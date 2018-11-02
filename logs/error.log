@@ -1,0 +1,114 @@
+2018-11-02 03:06:38 Error: [Cake\Core\Exception\MissingPluginException] Plugin BootstrapUI could not be found. in C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Core\PluginCollection.php on line 127
+Exception Attributes: array (
+  'plugin' => 'BootstrapUI',
+)
+Stack Trace:
+#0 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Core\Plugin.php(134): Cake\Core\PluginCollection->findPath('BootstrapUI')
+#1 C:\Users\Asriel\Documents\htdocs\cake_test\form\config\bootstrap.php(200): Cake\Core\Plugin::load('BootstrapUI')
+#2 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\BaseApplication.php(152): require_once('C:\\Users\\Asriel...')
+#3 C:\Users\Asriel\Documents\htdocs\cake_test\form\src\Application.php(39): Cake\Http\BaseApplication->bootstrap()
+#4 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Server.php(121): App\Application->bootstrap()
+#5 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Server->bootstrap()
+#6 C:\Users\Asriel\Documents\htdocs\cake_test\form\webroot\index.php(40): Cake\Http\Server->run()
+#7 {main}
+
+
+2018-11-02 03:11:26 Error: [Cake\Core\Exception\MissingPluginException] Plugin BootstrapUI could not be found. in C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Core\PluginCollection.php on line 127
+Exception Attributes: array (
+  'plugin' => 'BootstrapUI',
+)
+Stack Trace:
+#0 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Core\Plugin.php(134): Cake\Core\PluginCollection->findPath('BootstrapUI')
+#1 C:\Users\Asriel\Documents\htdocs\cake_test\form\config\bootstrap.php(200): Cake\Core\Plugin::load('BootstrapUI')
+#2 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\BaseApplication.php(152): require_once('C:\\Users\\Asriel...')
+#3 C:\Users\Asriel\Documents\htdocs\cake_test\form\src\Application.php(39): Cake\Http\BaseApplication->bootstrap()
+#4 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Server.php(121): App\Application->bootstrap()
+#5 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Server->bootstrap()
+#6 C:\Users\Asriel\Documents\htdocs\cake_test\form\webroot\index.php(40): Cake\Http\Server->run()
+#7 {main}
+
+
+2018-11-02 03:11:34 Error: [Cake\Core\Exception\MissingPluginException] Plugin BootstrapUI could not be found. in C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Core\PluginCollection.php on line 127
+Exception Attributes: array (
+  'plugin' => 'BootstrapUI',
+)
+Stack Trace:
+#0 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Core\Plugin.php(134): Cake\Core\PluginCollection->findPath('BootstrapUI')
+#1 C:\Users\Asriel\Documents\htdocs\cake_test\form\config\bootstrap.php(200): Cake\Core\Plugin::load('BootstrapUI')
+#2 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\BaseApplication.php(152): require_once('C:\\Users\\Asriel...')
+#3 C:\Users\Asriel\Documents\htdocs\cake_test\form\src\Application.php(39): Cake\Http\BaseApplication->bootstrap()
+#4 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Server.php(121): App\Application->bootstrap()
+#5 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Server->bootstrap()
+#6 C:\Users\Asriel\Documents\htdocs\cake_test\form\webroot\index.php(40): Cake\Http\Server->run()
+#7 {main}
+
+
+2018-11-02 03:18:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Index could not be found.
+Exception Attributes: array (
+  'class' => 'Index',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /index
+Stack Trace:
+#0 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Users\Asriel\Documents\htdocs\cake_test\form\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-11-02 03:28:37 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES)
+Request URL: /forms/list
+Stack Trace:
+#0 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Database\Driver.php(92): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(106): Cake\Database\Driver->_connect('mysql:host=loca...', Array)
+#2 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Database\Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\ORM\Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#9 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\FormsTable))
+#10 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\FormsTable))
+#11 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#12 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Datasource\Paginator.php(180): Cake\ORM\Table->find('all', Array)
+#13 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(200): Cake\Datasource\Paginator->paginate(Object(App\Model\Table\FormsTable), Array, Array)
+#14 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Controller\Controller.php(885): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\FormsTable), Array)
+#15 C:\Users\Asriel\Documents\htdocs\cake_test\form\src\Controller\FormsController.php(62): Cake\Controller\Controller->paginate(Object(App\Model\Table\FormsTable))
+#16 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\FormsController->list()
+#17 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#18 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\FormsController))
+#19 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#29 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#30 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#31 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#32 C:\Users\Asriel\Documents\htdocs\cake_test\form\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#33 C:\Users\Asriel\Documents\htdocs\cake_test\form\webroot\index.php(40): Cake\Http\Server->run()
+#34 {main}
+
+
