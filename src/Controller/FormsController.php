@@ -76,15 +76,15 @@ class FormsController extends AppController
 
             if($email
             ->setTransport('default')
-            ->setFrom(['dev@o-en-dev.net'])
-            ->setTo('asriel6666@gmail.com')
+            ->setFrom(['自分のメールアドレス'])
+            ->setTo('宛先')
             ->setSubject('お問い合わせ内容')
             ->send($sendMain)
             &&
             $email
             ->setTransport('default')
-            ->setFrom(['dev@o-en-dev.net'])
-            ->setTo('asriel6666@gmail.com')
+            ->setFrom(['自分のメールアドレス'])
+            ->setTo('宛先')
             ->setSubject('お問い合わせ頂きましてありがとうございます。')
             ->send($sendReturn)
             &&

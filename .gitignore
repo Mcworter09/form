@@ -2,6 +2,7 @@
 ##########################
 /config/app.php
 /config/.env
+/config/const.php
 /logs/*
 /tmp/*
 /vendor/*
